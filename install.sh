@@ -4,7 +4,7 @@ echo "📦 Updating APT packages..."
 sudo apt update
 
 echo "🔧 Installing Python, pip, build tools, and unzip..."
-sudo apt install -y python3 python3-pip build-essential curl file git unzip
+sudo rapt install -y python3 python3-pip build-essential curl file git unzip
 
 echo "🐍 Installing Poetry..."
 curl -sSL https://install.python-poetry.org | python3 -
